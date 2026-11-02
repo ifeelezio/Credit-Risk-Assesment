@@ -6,7 +6,7 @@ A reproducible credit risk case study assessing 500 simulated borrowers using re
 
 > **Important:** All borrower data and PD/LGD rules are synthetic and heuristic. This is not a validated underwriting, regulatory capital, or IFRS 9 impairment model.
 
-## Portfolio snapshot (generated seed: 20261102)
+## Portfolio
 
 | Metric | Value |
 |---|---:|
