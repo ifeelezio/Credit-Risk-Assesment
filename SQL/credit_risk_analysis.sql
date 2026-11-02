@@ -2,7 +2,7 @@
 -- Rates and probabilities are decimals (e.g., 0.05 = 5%).
 -- Synthetic data and illustrative assumptions; not a validated credit model.
 
--- 1. Portfolio snapshot
+-- 1. Portfolio
 SELECT COUNT(*) AS Borrowers, SUM(Loan_Amount_INR) AS Total_Exposure_INR,
        SUM(One_Year_ECL_INR) AS Total_One_Year_ECL_INR,
        SUM(One_Year_ECL_INR)/NULLIF(SUM(Loan_Amount_INR),0) AS ECL_Rate
