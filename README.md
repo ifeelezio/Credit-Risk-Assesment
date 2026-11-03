@@ -46,9 +46,9 @@ Risk grades reflect the project's assumed PD and repayment-capacity thresholds; 
 | File | Purpose |
 | --- | --- |
 | [`data/synthetic_borrowers.csv`](data/synthetic_borrowers.csv) | Synthetic dataset containing 500 borrowers |
-| [`sql/credit_risk_analysis.sql`](sql/credit_risk_analysis.sql) | T-SQL queries for portfolio analysis and data quality checks |
-| [`models/Credit_Risk_Financial_Model.xlsx`](models/Credit_Risk_Financial_Model.xlsx) | Formula-driven Excel model, dashboard, and stress scenarios |
-| [`reports/Credit_Risk_Report.pdf`](reports/Credit_Risk_Report.pdf) | Project findings, interpretation, and limitations |
+| [`sql/credit_risk_analysis.sql`](SQL/credit_risk_analysis.sql) | T-SQL queries for portfolio analysis and data quality checks |
+| [`models/Credit_Risk_Financial_Model.xlsx`](Models/Credit_Risk_Financial_Model.xlsx) | Formula-driven Excel model, dashboard, and stress scenarios |
+| [`reports/Credit_Risk_Report.pdf`](Reports/Credit_Risk_Report.pdf) | Project findings, interpretation, and limitations |
 | [`src/generate_data.py`](src/generate_data.py) | Deterministic Python dataset generator |
 | [`README.md`](README.md) | Setup instructions, methodology, and assumptions |
 
